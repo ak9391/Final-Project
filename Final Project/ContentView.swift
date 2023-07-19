@@ -6,16 +6,70 @@
 //
 
 import SwiftUI
+import UIKit
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+    
+    @State private var isRotating = 0.0
+    
+    class ViewController: UIViewController {
+        
+        override func viewDidLoad(){
+            super.viewDidLoad()
         }
-        .padding()
+    }
+    
+    var body: some View {
+        
+        NavigationStack {
+            
+            ZStack{
+                
+                Color(.systemGray)
+                 .ignoresSafeArea()
+                
+                Image("Vinyl")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(minWidth: 0, maxWidth: .infinity)
+                    .edgesIgnoringSafeArea(.all)
+                    .rotationEffect(.degrees(isRotating))
+                    .onAppear {
+                        withAnimation(.linear(duration: 1)
+                                    .speed(0.1).repeatForever(autoreverses: false)) {
+                                isRotating = 360.0
+                            }
+                    }
+                
+                
+                VStack {
+                    
+                    Button(action: {
+                        print("Circular Button tapped")
+                    }) {
+                        Text("")
+                            .lineLimit(nil)
+                            .frame(width: 280.0, height: 280.0)
+                            .foregroundColor(Color.white)
+                            .background(Color(red: 0.099, green: 0.094, blue: 0.256))
+                            .clipShape(Circle())
+                    }
+                    
+                }
+                
+                Image("radiorecs")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: 250.0, height: 250.0)
+                    .rotationEffect(.degrees(isRotating))
+                    .onAppear {
+                        withAnimation(.linear(duration: 1)
+                                    .speed(0.1).repeatForever(autoreverses: false)) {
+                                isRotating = 360.0
+                            }
+                    }
+            }
+        }
     }
     
 }
