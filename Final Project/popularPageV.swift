@@ -1,17 +1,16 @@
 //
-//  songPageV.swift
+//  popularPageV.swift
 //  Final Project
 //
-//  Created by Ashrita Kantamneni on 7/20/23.
+//  Created by Ashrita Kantamneni on 7/21/23.
 //
 
 import SwiftUI
 
-struct songPageV: View {
-    
+struct popularPageV: View {
     @State private var isRotating = 0.0
     
-    @State private var randomPopSong = ["One", "Two", "Three", "Four", "Five"].randomElement()!
+    @State private var randomPopularSong = ["One", "Two", "Three", "Four", "Five"].randomElement()!
     
     var body: some View {
         NavigationStack {
@@ -39,10 +38,10 @@ struct songPageV: View {
                 
                 VStack {
                     
-                    if randomPopSong == "One" {
+                    if randomPopularSong == "One" {
                         
                         Spacer()
-                        Image("popsong1")
+                        Image("popularsong1")
                         
                             .resizable()
                             .aspectRatio(contentMode: .fill)
@@ -58,16 +57,16 @@ struct songPageV: View {
                             
                         Spacer()
                             
-                        Link("I Blame Myself - Sky Ferreira",
-                              destination: URL(string: "https://tr.ee/MpCj_lC_Ws")!)
+                        Link("What Was I Made For? - Billie Eilish",
+                              destination: URL(string: "https://tr.ee/Ydrznhesgk")!)
                         .font(.title2)
                         .fontWeight(.semibold)
                         .foregroundColor(Color(hue: 0.115, saturation: 0.089, brightness: 0.111))
                         
-                    } else if randomPopSong == "Two" {
+                    } else if randomPopularSong == "Two" {
                         
                         Spacer()
-                        Image("popsong2")
+                        Image("popularsong2")
                         
                             .resizable()
                             .aspectRatio(contentMode: .fill)
@@ -83,16 +82,16 @@ struct songPageV: View {
                             
                         Spacer()
                         
-                        Link("Prime - Allie X",
-                              destination: URL(string: "https://tr.ee/hlyEkp3qbe")!)
+                        Link("Kill Bill - SZA",
+                              destination: URL(string: "https://tr.ee/smaZg6ZZyH")!)
                         .font(.title2)
                         .fontWeight(.semibold)
                         .foregroundColor(Color(hue: 0.115, saturation: 0.089, brightness: 0.111))
                         
-                    } else if randomPopSong == "Three" {
+                    } else if randomPopularSong == "Three" {
                         
                         Spacer()
-                        Image("popsong3")
+                        Image("popularsong3")
                         
                             .resizable()
                             .aspectRatio(contentMode: .fill)
@@ -108,16 +107,16 @@ struct songPageV: View {
                             
                         Spacer()
                         
-                        Link("Figure 8 - Ellie Goulding",
-                              destination: URL(string: "https://tr.ee/MXiAFhHPq8")!)
+                        Link("Daylight - David Kushner",
+                              destination: URL(string: "https://tr.ee/-f2wlavDVf")!)
                         .font(.title2)
                         .fontWeight(.semibold)
                         .foregroundColor(Color(hue: 0.115, saturation: 0.089, brightness: 0.111))
                         
-                    } else if randomPopSong == "Four" {
+                    } else if randomPopularSong == "Four" {
                         
                         Spacer()
-                        Image("popsong4")
+                        Image("popularsong4")
                         
                             .resizable()
                             .aspectRatio(contentMode: .fill)
@@ -132,8 +131,8 @@ struct songPageV: View {
                             }
                             
                         Spacer()
-                        Link("I Would Like - Zara Larsson",
-                              destination: URL(string: "https://tr.ee/t3SwhqT_Ou")!)
+                        Link("LALA- Myke Towers",
+                              destination: URL(string: "https://tr.ee/2ecfgBhb5n")!)
                         .font(.title2)
                         .fontWeight(.semibold)
                         .foregroundColor(Color(hue: 0.115, saturation: 0.089, brightness: 0.111))
@@ -141,7 +140,7 @@ struct songPageV: View {
                     } else {
                         
                         Spacer()
-                        Image("popsong5")
+                        Image("popularsong5")
                         
                             .resizable()
                             .aspectRatio(contentMode: .fill)
@@ -157,8 +156,8 @@ struct songPageV: View {
                             
                         Spacer()
                         
-                        Link("Move - Saint Motel",
-                              destination: URL(string: "https://tr.ee/2skwxUbbTS")!)
+                        Link("Cruel Summer - Taylor Swift",
+                              destination: URL(string: "https://tr.ee/AdyT0vn5gE")!)
                         .font(.title2)
                         .fontWeight(.semibold)
                         .foregroundColor(Color(hue: 0.115, saturation: 0.089, brightness: 0.111))
@@ -174,8 +173,9 @@ struct songPageV: View {
     }
 }
 
-struct songPageV_Previews: PreviewProvider {
+
+struct popularPageV_Previews: PreviewProvider {
     static var previews: some View {
-        songPageV()
+        popularPageV()
     }
 }

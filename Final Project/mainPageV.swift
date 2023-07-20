@@ -52,7 +52,7 @@ struct mainPageV: View {
                         .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                         
                         
-                        NavigationLink(destination: mainPageV()) {
+                        NavigationLink(destination: rockV()) {
                                  Text("Rock")
                          }
                         .padding()
@@ -79,7 +79,7 @@ struct mainPageV: View {
                     
                     
                     HStack {
-                        NavigationLink(destination: mainPageV()) {
+                        NavigationLink(destination: countryPageV()) {
                                  Text("Country")
                          }
                         .padding()
@@ -91,7 +91,7 @@ struct mainPageV: View {
                         .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                         
                         
-                        NavigationLink(destination: mainPageV()) {
+                        NavigationLink(destination: latinoV()) {
                                  Text("Latino")
                          }
                         .font(.title)
@@ -118,7 +118,7 @@ struct mainPageV: View {
                         .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                         
                         
-                        NavigationLink(destination: mainPageV()) {
+                        NavigationLink(destination: rbPageV()) {
                                  Text("R&B")
                          }
                         .padding()
@@ -130,7 +130,7 @@ struct mainPageV: View {
                         .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                         
                         
-                        NavigationLink(destination: mainPageV()) {
+                        NavigationLink(destination: kpopV()) {
                                  Text("KPop")
                          }
                         .padding()
@@ -157,7 +157,7 @@ struct mainPageV: View {
                         .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                         
                         
-                        NavigationLink(destination: mainPageV()) {
+                        NavigationLink(destination: popularPageV()) {
                                  Text("Popular")
                          }
                         .padding()

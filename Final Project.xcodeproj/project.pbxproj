@@ -13,6 +13,17 @@
 		70DBB2C32A6823E600A847AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70DBB2C22A6823E600A847AC /* Preview Assets.xcassets */; };
 		70DBB2CE2A6865DE00A847AC /* mainPageV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBB2CD2A6865DE00A847AC /* mainPageV.swift */; };
 		70DBB2D02A6933C000A847AC /* songPageV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBB2CF2A6933BF00A847AC /* songPageV.swift */; };
+		70DBB2D62A69AD3100A847AC /* countryPageV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBB2D52A69AD3100A847AC /* countryPageV.swift */; };
+		70DBB2D82A69B43200A847AC /* rbPageV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBB2D72A69B43100A847AC /* rbPageV.swift */; };
+		70DBB2DA2A69BD1800A847AC /* popularPageV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBB2D92A69BD1800A847AC /* popularPageV.swift */; };
+		70DBB2DC2A69C3CE00A847AC /* rockV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBB2DB2A69C3CE00A847AC /* rockV.swift */; };
+		70DBB2DE2A69C3DF00A847AC /* kpopV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBB2DD2A69C3DF00A847AC /* kpopV.swift */; };
+		70DBB2E02A69C43400A847AC /* latinoV-.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBB2DF2A69C43400A847AC /* latinoV-.swift */; };
+		70DBB2E22A69C44900A847AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70DBB2E12A69C44900A847AC /* Assets.xcassets */; };
+		70DBB2E42A69C6EA00A847AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70DBB2E32A69C6EA00A847AC /* Assets.xcassets */; };
+		70DBB2E62A69C6F700A847AC /* TbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBB2E52A69C6F700A847AC /* TbView.swift */; };
+		70DBB2E82A69C70200A847AC /* RapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBB2E72A69C70200A847AC /* RapView.swift */; };
+		70DBB2EA2A69C70B00A847AC /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBB2E92A69C70A00A847AC /* MetalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +34,17 @@
 		70DBB2C22A6823E600A847AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		70DBB2CD2A6865DE00A847AC /* mainPageV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainPageV.swift; sourceTree = "<group>"; };
 		70DBB2CF2A6933BF00A847AC /* songPageV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = songPageV.swift; sourceTree = "<group>"; };
+		70DBB2D52A69AD3100A847AC /* countryPageV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countryPageV.swift; sourceTree = "<group>"; };
+		70DBB2D72A69B43100A847AC /* rbPageV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rbPageV.swift; sourceTree = "<group>"; };
+		70DBB2D92A69BD1800A847AC /* popularPageV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popularPageV.swift; sourceTree = "<group>"; };
+		70DBB2DB2A69C3CE00A847AC /* rockV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = rockV.swift; path = "../../../Downloads/Final Project/Final Project/rockV.swift"; sourceTree = "<group>"; };
+		70DBB2DD2A69C3DF00A847AC /* kpopV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = kpopV.swift; path = "../../../Downloads/Final Project/Final Project/kpopV.swift"; sourceTree = "<group>"; };
+		70DBB2DF2A69C43400A847AC /* latinoV-.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "latinoV-.swift"; path = "../../../Downloads/Final Project/Final Project/latinoV-.swift"; sourceTree = "<group>"; };
+		70DBB2E12A69C44900A847AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Downloads/Final Project/Final Project/Assets.xcassets"; sourceTree = "<group>"; };
+		70DBB2E32A69C6EA00A847AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Downloads/Final Project 2/Assets.xcassets"; sourceTree = "<group>"; };
+		70DBB2E52A69C6F700A847AC /* TbView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TbView.swift; path = "../../../Downloads/Final Project 2/TbView.swift"; sourceTree = "<group>"; };
+		70DBB2E72A69C70200A847AC /* RapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RapView.swift; path = "../../../Downloads/Final Project 2/RapView.swift"; sourceTree = "<group>"; };
+		70DBB2E92A69C70A00A847AC /* MetalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MetalView.swift; path = "../../../Downloads/Final Project 2/MetalView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +81,18 @@
 				70DBB2BD2A6823DF00A847AC /* ContentView.swift */,
 				70DBB2CD2A6865DE00A847AC /* mainPageV.swift */,
 				70DBB2CF2A6933BF00A847AC /* songPageV.swift */,
+				70DBB2E72A69C70200A847AC /* RapView.swift */,
+				70DBB2DB2A69C3CE00A847AC /* rockV.swift */,
+				70DBB2DD2A69C3DF00A847AC /* kpopV.swift */,
+				70DBB2D52A69AD3100A847AC /* countryPageV.swift */,
+				70DBB2E92A69C70A00A847AC /* MetalView.swift */,
+				70DBB2D72A69B43100A847AC /* rbPageV.swift */,
+				70DBB2DF2A69C43400A847AC /* latinoV-.swift */,
+				70DBB2E52A69C6F700A847AC /* TbView.swift */,
+				70DBB2D92A69BD1800A847AC /* popularPageV.swift */,
 				70DBB2BF2A6823E600A847AC /* Assets.xcassets */,
+				70DBB2E12A69C44900A847AC /* Assets.xcassets */,
+				70DBB2E32A69C6EA00A847AC /* Assets.xcassets */,
 				70DBB2C12A6823E600A847AC /* Preview Content */,
 			);
 			path = "Final Project";
@@ -132,6 +165,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				70DBB2C32A6823E600A847AC /* Preview Assets.xcassets in Resources */,
+				70DBB2E22A69C44900A847AC /* Assets.xcassets in Resources */,
+				70DBB2E42A69C6EA00A847AC /* Assets.xcassets in Resources */,
 				70DBB2C02A6823E600A847AC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,8 +178,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70DBB2E62A69C6F700A847AC /* TbView.swift in Sources */,
+				70DBB2DA2A69BD1800A847AC /* popularPageV.swift in Sources */,
+				70DBB2E82A69C70200A847AC /* RapView.swift in Sources */,
+				70DBB2E02A69C43400A847AC /* latinoV-.swift in Sources */,
+				70DBB2EA2A69C70B00A847AC /* MetalView.swift in Sources */,
 				70DBB2D02A6933C000A847AC /* songPageV.swift in Sources */,
+				70DBB2DE2A69C3DF00A847AC /* kpopV.swift in Sources */,
+				70DBB2D82A69B43200A847AC /* rbPageV.swift in Sources */,
+				70DBB2DC2A69C3CE00A847AC /* rockV.swift in Sources */,
 				70DBB2CE2A6865DE00A847AC /* mainPageV.swift in Sources */,
+				70DBB2D62A69AD3100A847AC /* countryPageV.swift in Sources */,
 				70DBB2BE2A6823DF00A847AC /* ContentView.swift in Sources */,
 				70DBB2BC2A6823DF00A847AC /* Final_ProjectApp.swift in Sources */,
 			);
