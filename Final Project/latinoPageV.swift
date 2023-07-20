@@ -1,5 +1,5 @@
 //
-//  rbPageV.swift
+//  latinoPageV.swift
 //  Final Project
 //
 //  Created by Ashrita Kantamneni on 7/21/23.
@@ -7,17 +7,20 @@
 
 import SwiftUI
 
-struct rbPageV: View {
+struct latinoPageV: View {
     @State private var isRotating = 0.0
     
-    @State private var randomRbSong = ["One", "Two", "Three", "Four", "Five", "Six"].randomElement()!
+    @State private var randomLatinoSong = ["One", "Two", "Three", "Four", "Five"].randomElement()!
     
     var body: some View {
         NavigationStack {
-    
+            
+           
+            
+            
             
             ZStack {
-
+                
                 
                 Color(.systemGray)
                  .ignoresSafeArea()
@@ -37,10 +40,10 @@ struct rbPageV: View {
                 
                 VStack {
                     
-                    if randomRbSong == "One" {
+                    if randomLatinoSong == "One" {
                         
                         Spacer()
-                        Image("rbsong1")
+                        Image("latinosong1")
                         
                             .resizable()
                             .aspectRatio(contentMode: .fill)
@@ -56,16 +59,16 @@ struct rbPageV: View {
                             
                         Spacer()
                             
-                        Link("Surprise, Surprise - Zushii",
-                              destination: URL(string: "https://tr.ee/3cTz1q5TRK")!)
+                        Link("Beso",
+                              destination: URL(string: "https://tr.ee/dDhhIGhJs4")!)
                         .font(.title2)
                         .fontWeight(.semibold)
                         .foregroundColor(Color(hue: 0.115, saturation: 0.089, brightness: 0.111))
                         
-                    } else if randomRbSong == "Two" {
+                    } else if randomLatinoSong == "Two" {
                         
                         Spacer()
-                        Image("rbsong2")
+                        Image("latinosong2")
                         
                             .resizable()
                             .aspectRatio(contentMode: .fill)
@@ -81,16 +84,16 @@ struct rbPageV: View {
                             
                         Spacer()
                         
-                        Link("BELIEVE IT - PARTYNEXTDOOR and Rihanna",
-                              destination: URL(string: "https://tr.ee/bZAbR5qlSW")!)
+                        Link("CHIBI",
+                              destination: URL(string: "https://tr.ee/7EjaaEj0WQ")!)
                         .font(.title2)
                         .fontWeight(.semibold)
                         .foregroundColor(Color(hue: 0.115, saturation: 0.089, brightness: 0.111))
                         
-                    } else if randomRbSong == "Three" {
+                    } else if randomLatinoSong == "Three" {
                         
                         Spacer()
-                        Image("rbsong3")
+                        Image("latinosong3")
                         
                             .resizable()
                             .aspectRatio(contentMode: .fill)
@@ -106,16 +109,16 @@ struct rbPageV: View {
                             
                         Spacer()
                         
-                        Link("Higher - Tems",
-                              destination: URL(string: "https://tr.ee/pDmaxyLOo6")!)
+                        Link("Con La Brisa",
+                              destination: URL(string: "https://tr.ee/8oTwv0s3fB")!)
                         .font(.title2)
                         .fontWeight(.semibold)
                         .foregroundColor(Color(hue: 0.115, saturation: 0.089, brightness: 0.111))
                         
-                    } else if randomRbSong == "Four" {
+                    } else if randomLatinoSong == "Four" {
                         
                         Spacer()
-                        Image("rbsong4")
+                        Image("latinosong4")
                         
                             .resizable()
                             .aspectRatio(contentMode: .fill)
@@ -130,40 +133,16 @@ struct rbPageV: View {
                             }
                             
                         Spacer()
-                        Link("After Last Night - Silk Sonic",
-                              destination: URL(string: "https://tr.ee/9Kjjk441Yk")!)
+                        Link("Qué Más Pues?",
+                              destination: URL(string: "https://tr.ee/46JWgwtQkC")!)
                         .font(.title2)
                         .fontWeight(.semibold)
                         .foregroundColor(Color(hue: 0.115, saturation: 0.089, brightness: 0.111))
                         
-                    } else if randomRbSong == "Five" {
-                        
-                        Spacer()
-                        Image("rbsong5")
-                        
-                            .resizable()
-                            .aspectRatio(contentMode: .fill)
-                            .frame(width: 280.0, height: 280.0)
-                            .clipShape(Circle())
-                            .rotationEffect(.degrees(isRotating))
-                            .onAppear {
-                                withAnimation(.linear(duration: 1)
-                                    .speed(0.1).repeatForever(autoreverses: false)) {
-                                        isRotating = 360.0
-                                    }
-                            }
-                            
-                        Spacer()
-                        
-                        Link("Pink + White - Frank Ocean",
-                              destination: URL(string: "https://tr.ee/450rSF3072")!)
-                        .font(.title2)
-                        .fontWeight(.semibold)
-                        .foregroundColor(Color(hue: 0.115, saturation: 0.089, brightness: 0.111))
                     } else {
                         
                         Spacer()
-                        Image("rbsong6")
+                        Image("latinosong5")
                         
                             .resizable()
                             .aspectRatio(contentMode: .fill)
@@ -179,12 +158,11 @@ struct rbPageV: View {
                             
                         Spacer()
                         
-                        Link("ALL UP IN YOUR MIND - Beyoncé",
-                              destination: URL(string: "https://tr.ee/aysN-opGUB")!)
+                        Link("Mi Gente",
+                              destination: URL(string: "https://tr.ee/ZiM8TGXB0d")!)
                         .font(.title2)
                         .fontWeight(.semibold)
                         .foregroundColor(Color(hue: 0.115, saturation: 0.089, brightness: 0.111))
-                        
                     }
                     
                     
@@ -197,8 +175,8 @@ struct rbPageV: View {
     }
 }
 
-struct rbPageV_Previews: PreviewProvider {
+struct latinoPageV_Previews: PreviewProvider {
     static var previews: some View {
-        rbPageV()
+        latinoPageV()
     }
 }

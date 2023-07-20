@@ -131,7 +131,7 @@ struct popularPageV: View {
                             }
                             
                         Spacer()
-                        Link("LALA- Myke Towers",
+                        Link("LALA - Myke Towers",
                               destination: URL(string: "https://tr.ee/2ecfgBhb5n")!)
                         .font(.title2)
                         .fontWeight(.semibold)

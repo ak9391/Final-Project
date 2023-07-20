@@ -52,7 +52,7 @@ struct mainPageV: View {
                         .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                         
                         
-                        NavigationLink(destination: rockV()) {
+                        NavigationLink(destination: rockPageV()) {
                                  Text("Rock")
                          }
                         .padding()
@@ -91,7 +91,7 @@ struct mainPageV: View {
                         .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                         
                         
-                        NavigationLink(destination: latinoV()) {
+                        NavigationLink(destination: latinoPageV()) {
                                  Text("Latino")
                          }
                         .font(.title)
@@ -130,7 +130,7 @@ struct mainPageV: View {
                         .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                         
                         
-                        NavigationLink(destination: kpopV()) {
+                        NavigationLink(destination: kpopPageV()) {
                                  Text("KPop")
                          }
                         .padding()
