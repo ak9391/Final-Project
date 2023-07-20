@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70BCB9F42A69D2370082BF19 /* metalPageV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BCB9F32A69D2370082BF19 /* metalPageV.swift */; };
+		70BCB9F62A69D2610082BF19 /* rapPageV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BCB9F52A69D2610082BF19 /* rapPageV.swift */; };
+		70BCB9F82A69D28B0082BF19 /* tbPageV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BCB9F72A69D28B0082BF19 /* tbPageV.swift */; };
 		70DBB2BC2A6823DF00A847AC /* Final_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBB2BB2A6823DF00A847AC /* Final_ProjectApp.swift */; };
 		70DBB2BE2A6823DF00A847AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBB2BD2A6823DF00A847AC /* ContentView.swift */; };
 		70DBB2C02A6823E600A847AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70DBB2BF2A6823E600A847AC /* Assets.xcassets */; };
@@ -15,7 +18,6 @@
 		70DBB2D02A6933C000A847AC /* songPageV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBB2CF2A6933BF00A847AC /* songPageV.swift */; };
 		70DBB2D62A69AD3100A847AC /* countryPageV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBB2D52A69AD3100A847AC /* countryPageV.swift */; };
 		70DBB2DA2A69BD1800A847AC /* popularPageV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBB2D92A69BD1800A847AC /* popularPageV.swift */; };
-		70DBB2E82A69C70200A847AC /* RapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBB2E72A69C70200A847AC /* RapView.swift */; };
 		70DBB2EC2A69CABC00A847AC /* kpopPageV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBB2EB2A69CABC00A847AC /* kpopPageV.swift */; };
 		70DBB2F02A69CB9200A847AC /* rockPageV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBB2EF2A69CB9200A847AC /* rockPageV.swift */; };
 		70DBB2F22A69CBC100A847AC /* latinoPageV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBB2F12A69CBC100A847AC /* latinoPageV.swift */; };
@@ -23,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		70BCB9F32A69D2370082BF19 /* metalPageV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metalPageV.swift; sourceTree = "<group>"; };
+		70BCB9F52A69D2610082BF19 /* rapPageV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rapPageV.swift; sourceTree = "<group>"; };
+		70BCB9F72A69D28B0082BF19 /* tbPageV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tbPageV.swift; sourceTree = "<group>"; };
 		70DBB2B82A6823DF00A847AC /* Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70DBB2BB2A6823DF00A847AC /* Final_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_ProjectApp.swift; sourceTree = "<group>"; };
 		70DBB2BD2A6823DF00A847AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,7 +37,6 @@
 		70DBB2CF2A6933BF00A847AC /* songPageV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = songPageV.swift; sourceTree = "<group>"; };
 		70DBB2D52A69AD3100A847AC /* countryPageV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countryPageV.swift; sourceTree = "<group>"; };
 		70DBB2D92A69BD1800A847AC /* popularPageV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popularPageV.swift; sourceTree = "<group>"; };
-		70DBB2E72A69C70200A847AC /* RapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RapView.swift; path = "../../../Downloads/Final Project 2/RapView.swift"; sourceTree = "<group>"; };
 		70DBB2EB2A69CABC00A847AC /* kpopPageV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kpopPageV.swift; sourceTree = "<group>"; };
 		70DBB2EF2A69CB9200A847AC /* rockPageV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rockPageV.swift; sourceTree = "<group>"; };
 		70DBB2F12A69CBC100A847AC /* latinoPageV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = latinoPageV.swift; sourceTree = "<group>"; };
@@ -76,10 +80,12 @@
 				70DBB2F12A69CBC100A847AC /* latinoPageV.swift */,
 				70DBB2CF2A6933BF00A847AC /* songPageV.swift */,
 				70DBB2EB2A69CABC00A847AC /* kpopPageV.swift */,
-				70DBB2E72A69C70200A847AC /* RapView.swift */,
 				70DBB2D52A69AD3100A847AC /* countryPageV.swift */,
 				70DBB2F32A69CD8600A847AC /* rbPageV.swift */,
 				70DBB2D92A69BD1800A847AC /* popularPageV.swift */,
+				70BCB9F32A69D2370082BF19 /* metalPageV.swift */,
+				70BCB9F52A69D2610082BF19 /* rapPageV.swift */,
+				70BCB9F72A69D28B0082BF19 /* tbPageV.swift */,
 				70DBB2BF2A6823E600A847AC /* Assets.xcassets */,
 				70DBB2C12A6823E600A847AC /* Preview Content */,
 			);
@@ -166,14 +172,16 @@
 			files = (
 				70DBB2EC2A69CABC00A847AC /* kpopPageV.swift in Sources */,
 				70DBB2DA2A69BD1800A847AC /* popularPageV.swift in Sources */,
-				70DBB2E82A69C70200A847AC /* RapView.swift in Sources */,
 				70DBB2F22A69CBC100A847AC /* latinoPageV.swift in Sources */,
 				70DBB2D02A6933C000A847AC /* songPageV.swift in Sources */,
 				70DBB2CE2A6865DE00A847AC /* mainPageV.swift in Sources */,
 				70DBB2F42A69CD8600A847AC /* rbPageV.swift in Sources */,
 				70DBB2F02A69CB9200A847AC /* rockPageV.swift in Sources */,
+				70BCB9F62A69D2610082BF19 /* rapPageV.swift in Sources */,
 				70DBB2D62A69AD3100A847AC /* countryPageV.swift in Sources */,
 				70DBB2BE2A6823DF00A847AC /* ContentView.swift in Sources */,
+				70BCB9F82A69D28B0082BF19 /* tbPageV.swift in Sources */,
+				70BCB9F42A69D2370082BF19 /* metalPageV.swift in Sources */,
 				70DBB2BC2A6823DF00A847AC /* Final_ProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

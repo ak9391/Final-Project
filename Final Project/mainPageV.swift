@@ -64,7 +64,7 @@ struct mainPageV: View {
                         .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                         
                         
-                        NavigationLink(destination: mainPageV()) {
+                        NavigationLink(destination: rapPageV()) {
                                  Text("Rap")
                          }
                         .padding()
@@ -106,7 +106,7 @@ struct mainPageV: View {
                     
                     
                     HStack {
-                        NavigationLink(destination: mainPageV()) {
+                        NavigationLink(destination: metalPageV()) {
                                  Text("Metal")
                          }
                         .padding()
@@ -145,7 +145,7 @@ struct mainPageV: View {
                     
                     
                     HStack {
-                        NavigationLink(destination: mainPageV()) {
+                        NavigationLink(destination: tbPageV()) {
                                  Text("Throw back")
                          }
                         
