@@ -39,7 +39,7 @@ struct mainPageV: View {
                     Spacer()
                     
                     HStack {
-                       NavigationLink(destination: mainPageV()) {
+                       NavigationLink(destination: songPageV()) {
                                 Text("Pop")
                         }
                         
