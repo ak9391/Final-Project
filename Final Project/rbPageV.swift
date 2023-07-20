@@ -18,7 +18,7 @@ struct rbPageV: View {
             
             ZStack {
 
-                
+            
                 Color(.systemGray)
                  .ignoresSafeArea()
                 
